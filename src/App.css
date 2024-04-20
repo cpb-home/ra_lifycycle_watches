@@ -64,8 +64,16 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Electro";
+  src: url("./fonts/digital_counter_7_italic.ttf");
+}
 .clock {
+  font-family: "Electro";
   margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(2, 192, 2);
 }
 
 .clockContainer>button {
