@@ -21,7 +21,7 @@ const Clock = ({ title, timezone, time, number, removeHandler } : IClock) => {
     if ((Number(hours) + Number(timezone)) < 0) {
       updatedHours = 24 + (Number(hours) + Number(timezone));
     } else if ((Number(hours) + Number(timezone)) > 23) {
-      updatedHours = 24 - (Number(hours) + Number(timezone));
+      updatedHours = (Number(hours) + Number(timezone)) - 24;
     } else {
       updatedHours = Number(hours) + Number(timezone);
     }

@@ -13,7 +13,7 @@ interface IClockList {
 }
 
 function App() {
-  const [clockList, setclockList] = useState<IClockList[]>([{ title: 'aaa', timezone: '11' }]);
+  const [clockList, setclockList] = useState<IClockList[]>([]);
   const [form, setForm] = useState<IForm>({
     title: "",
     timezone: "",
